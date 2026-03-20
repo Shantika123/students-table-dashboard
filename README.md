@@ -20,8 +20,6 @@ The application performs **CRUD operations (Create, Read, Update, Delete)** usin
 * CSS3
 * Tailwind CSS
 
-
-
 ## How to Run the Project
 
 1. Clone the repository
@@ -60,5 +58,33 @@ http://localhost:3000
 * Managing application state in React
 * Implementing frontend CRUD operations
 * Handling user input and table data dynamically
+
+---
+
+##  Deployment
+
+The application is deployed using **Vercel**, a cloud platform for hosting frontend applications.
+
+**Live Demo:**
+[https://students-table-dashboard.vercel.app](https://students-table-dashboard.vercel.app)
+
+### Deployment Steps
+
+1. Go to [https://vercel.com](https://vercel.com)
+2. Sign in with your GitHub account
+3. Click **New Project**
+4. Import your repository
+5. Configure:
+
+   * Build Command: `npm run build`
+   * Output Directory: `build`
+6. Click **Deploy**
+
+### Deployment Features
+
+* Fast global CDN
+* Automatic deployments on every push
+* Free HTTPS support
+* Easy GitHub integration
 
 ---
